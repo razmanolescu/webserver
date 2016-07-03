@@ -8,6 +8,7 @@ NIO buffers are used to allow fast streaming of data to the HTTP client.
 As soon as a channel becomes readable, the main thread creates a task to allow parallel processing of requests. The size of the worker pool has to be tuned according the expected TPS and balance between context switching and average duration of HTTP request.
 
 This serves three kinds of requests:
+
 | URL path  	| Result								 |
 | ------------- | -------------------------------------- |
 |	/sample		| Sample text used for testing purposes  |
