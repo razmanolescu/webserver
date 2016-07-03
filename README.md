@@ -1,3 +1,17 @@
+**Table of Contents** 
+
+- [Java web server](#)
+		- [General info](#)
+		- [Configuration files](#)
+		- [Starting the server](#)
+		- [Testing](#)
+			- [Libraries](#)
+- [Javascript Drag and drop application](#)
+		- [General info](#)
+		- [Running the application](#)
+		- [Testing](#)
+		- [Libraries](#)
+
 ## Java web server
 
 #### General info
