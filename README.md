@@ -13,7 +13,7 @@ This serves three kinds of requests:
 | ------------- | -------------------------------------- |
 |	/sample		| Sample text used for testing purposes  |
 |	/config		| Runtime server configuration output	 |
-|	/<any>		| Static file path 						 |
+|	/\<any\>		| Static file path 						 |
 
 #### Configuration files
 
