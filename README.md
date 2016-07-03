@@ -19,7 +19,7 @@ This serves three kinds of requests:
 
 * src/main/conf/config.properties  	- Server configuration file
 * src/main/conf/log4j.properties   	- Can alter logging level, format
-* www/								- Default 
+* www/								- Default root for static file mapping
  
 
 #### Starting the server
