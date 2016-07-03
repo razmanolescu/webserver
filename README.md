@@ -1,16 +1,14 @@
-**Table of Contents** 
-
-- [Java web server](#)
-	- [General info](#)
-	- [Configuration files](#)
-	- [Starting the server](#)
-	- [Testing](#)
-	- [Libraries](#)
-- [Javascript Drag and drop application](#)
-	- [General info](#)
-	- [Running the application](#)
-	- [Testing](#)
-	- [Libraries](#)
+- [Java web server](#java-web-server)
+	- [General info](#general-info)
+	- [Configuration files](#configuration-files)
+	- [Starting the server](#starting-the-server)
+	- [Testing](#testing)
+	- [Libraries](#libraries)
+- [Javascript Drag and drop application](#javascript-drag-and-drop-application)
+	- [General info](#general-info-1)
+	- [Running the application](#running-the-application)
+	- [Testing](#testing-1)
+	- [Libraries](#libraries-1)
 
 ## Java web server
 
