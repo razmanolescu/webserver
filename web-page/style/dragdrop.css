@@ -1,0 +1,31 @@
+	iframe {
+		margin-top: 1cm;
+		width: 315px;
+		height: 520px;
+	}
+	
+	.highlight {
+		background-color: #4ddbff;
+		font-weight: bold;
+	}
+	
+	.DragElement {
+		border-style:solid;  
+		cursor: move; 
+		border-width:1px; 
+		font-size:medium; 
+		height:20px; 
+		width:300px
+	}
+	
+	.DroppableElement {
+		position: absolute;
+		background-color: #ccccff; 
+		height: 500px; 
+		width: 302px;
+	}
+	
+	#draggingContainer {
+		position: absolute;
+	}
+	

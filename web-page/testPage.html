@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+	<head>
+	  <meta charset="utf-8">
+	  <title>Adobe Homework JS Test</title>
+	 
+	<link rel="stylesheet" href="https://code.jquery.com/qunit/qunit-2.0.0.css">
+	<script src="https://code.jquery.com/qunit/qunit-2.0.0.js"></script>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.10.2.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+	
+	<style>
+		iframe, .DragElement, .DropElement {display: none;}
+	</style>
+	
+	  <script>
+
+		  QUnit.test("Test iFrame injection", function( assert ) {
+			$('<iframe id="testFrame"></iframe>').appendTo('body').iframe();
+			var body = $('#testFrame').contents().find('.DragElement');
+			var head = $('#testFrame').contents().find('head');
+			assert.ok(body, 'Expected element present');
+			assert.ok(head, 'Expected element present');
+			var link = head.contents().find('link');
+			assert.ok(link, 'Expected element present');
+		  });
+		  
+		  QUnit.test("Test element initialization", function( assert ) {
+			var droppAbleArea = $('#childFrame').contents().find('#DroppableDiv1');
+			assert.ok(droppAbleArea);
+			assert.ok(droppAbleArea.hasClass("ui-droppable"));
+			var elements = $('#testFrame').contents().find('.DragElement');
+			assert.ok(elements);
+			$.each(elements, function(index, elemValue) {
+				  assert.ok(elemValue);
+				  assert.ok(elemValue.hasClass('ui-draggble'));
+				  assert.ok(elemValue.hasClass('ui-draggble-handle'));
+				});
+		  });
+		  
+		  QUnit.test("Test drag and drop", function( assert ) {
+			var dragDiv = $("div[customdata*='property1']");
+			assert.ok(dragDiv, 'Element is present');
+			assert.ok(dragDiv.draggable(), 'Element is draggable');
+		  });
+
+		  
+		  QUnit.test("Test server request", function( assert ) {
+			assert.expect(2);
+		  	var sReq = $.serverRequestor();
+			assert.ok(sReq);
+			sReq.getServerMessage("http://www.google.com", function (text) { assert.ok(null, 'Function should not be called'); }, 'Non CORS supporting URL does not return anything'); 
+			var done = assert.async();
+			
+			sReq.getServerMessage(LOCAL_SERVER_URL, function (message) { assert.equal(message, 'Adobe Server test text', 'Response should be as expected unless static file has changed'); done(); }, 'Server response as expected, if server is up'); 
+			
+		  });
+	  </script>
+	  <script type="text/javascript" src="js/dragDrop.js"></script>
+	</head>
+	
+	<body>
+		<div id="qunit"></div>
+	</body>
+</html>

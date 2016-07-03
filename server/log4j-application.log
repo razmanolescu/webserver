@@ -1,0 +1,5 @@
+2016-07-03 18:46:38 INFO  Server:73 - Server stage changed from [STOPPED] to [STARTED]
+2016-07-03 18:46:38 INFO  Server:73 - Server stage changed from [STARTED] to [RUNNING]
+2016-07-03 18:46:38 DEBUG CleanupWorker:33 - Starting idle channel cleanup for 1 keys
+2016-07-03 18:46:43 DEBUG CleanupWorker:33 - Starting idle channel cleanup for 1 keys
+2016-07-03 18:46:48 DEBUG CleanupWorker:33 - Starting idle channel cleanup for 1 keys
