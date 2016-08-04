@@ -3,3 +3,63 @@
 2016-07-03 18:46:38 DEBUG CleanupWorker:33 - Starting idle channel cleanup for 1 keys
 2016-07-03 18:46:43 DEBUG CleanupWorker:33 - Starting idle channel cleanup for 1 keys
 2016-07-03 18:46:48 DEBUG CleanupWorker:33 - Starting idle channel cleanup for 1 keys
+2016-07-04 09:02:59 INFO  Server:73 - Server stage changed from [STOPPED] to [STARTED]
+2016-07-04 09:02:59 INFO  Server:73 - Server stage changed from [STARTED] to [RUNNING]
+2016-07-04 09:02:59 DEBUG CleanupWorker:33 - Starting idle channel cleanup for 1 keys
+2016-07-04 09:03:01 DEBUG Server:149 - Have 1 channels
+2016-07-04 09:03:01 DEBUG Server:161 - Accepted new connection java.nio.channels.SocketChannel[connected local=/0:0:0:0:0:0:0:1:10093 remote=/0:0:0:0:0:0:0:1:12203]
+2016-07-04 09:03:01 DEBUG Server:149 - Have 1 channels
+2016-07-04 09:03:01 INFO  WorkerThread:40 - Thread dispachThreadPool-tId-0 running
+2016-07-04 09:03:01 DEBUG WorkerThread:63 - Request is keep-alive
+2016-07-04 09:03:01 DEBUG Server:130 - Adding 1 channels for reuse
+2016-07-04 09:03:01 DEBUG Server:149 - Have 1 channels
+2016-07-04 09:03:01 INFO  Server:168 - Reusing channelObject#1687841140 1467612181864
+2016-07-04 09:03:01 INFO  WorkerThread:40 - Thread dispachThreadPool-tId-1 running
+2016-07-04 09:03:01 DEBUG WorkerThread:63 - Request is keep-alive
+2016-07-04 09:03:01 DEBUG Server:130 - Adding 1 channels for reuse
+2016-07-04 09:03:01 DEBUG Server:149 - Have 1 channels
+2016-07-04 09:03:01 INFO  Server:168 - Reusing channelObject#1687841140 1467612181867
+2016-07-04 09:03:01 INFO  WorkerThread:40 - Thread dispachThreadPool-tId-2 running
+2016-07-04 09:03:01 ERROR HttpIOProcessor:107 - EOS encounted
+2016-07-04 09:03:04 DEBUG CleanupWorker:33 - Starting idle channel cleanup for 1 keys
+2016-07-04 09:03:09 DEBUG CleanupWorker:33 - Starting idle channel cleanup for 1 keys
+2016-07-04 09:03:14 DEBUG CleanupWorker:33 - Starting idle channel cleanup for 1 keys
+2016-07-04 09:03:19 DEBUG CleanupWorker:33 - Starting idle channel cleanup for 1 keys
+2016-07-04 09:03:24 DEBUG CleanupWorker:33 - Starting idle channel cleanup for 1 keys
+2016-07-04 09:03:29 DEBUG CleanupWorker:33 - Starting idle channel cleanup for 1 keys
+2016-07-04 09:03:34 DEBUG CleanupWorker:33 - Starting idle channel cleanup for 1 keys
+2016-07-04 09:03:36 DEBUG Server:149 - Have 1 channels
+2016-07-04 09:03:36 DEBUG Server:161 - Accepted new connection java.nio.channels.SocketChannel[connected local=/0:0:0:0:0:0:0:1:10093 remote=/0:0:0:0:0:0:0:1:12386]
+2016-07-04 09:03:36 DEBUG Server:149 - Have 1 channels
+2016-07-04 09:03:36 INFO  WorkerThread:40 - Thread dispachThreadPool-tId-3 running
+2016-07-04 09:03:36 DEBUG WorkerThread:63 - Request is keep-alive
+2016-07-04 09:03:36 DEBUG Server:130 - Adding 1 channels for reuse
+2016-07-04 09:03:39 DEBUG Server:149 - Have 1 channels
+2016-07-04 09:03:39 INFO  Server:168 - Reusing channelObject#1265864942 1467612216578
+2016-07-04 09:03:39 INFO  WorkerThread:40 - Thread dispachThreadPool-tId-4 running
+2016-07-04 09:03:39 DEBUG WorkerThread:63 - Request is keep-alive
+2016-07-04 09:03:39 DEBUG Server:130 - Adding 1 channels for reuse
+2016-07-04 09:03:39 DEBUG CleanupWorker:33 - Starting idle channel cleanup for 2 keys
+2016-07-04 09:03:41 DEBUG Server:149 - Have 1 channels
+2016-07-04 09:03:41 INFO  Server:168 - Reusing channelObject#1265864942 1467612219176
+2016-07-04 09:03:41 INFO  WorkerThread:40 - Thread dispachThreadPool-tId-5 running
+2016-07-04 09:03:41 DEBUG WorkerThread:63 - Request is keep-alive
+2016-07-04 09:03:41 DEBUG Server:130 - Adding 1 channels for reuse
+2016-07-04 09:03:43 DEBUG Server:149 - Have 1 channels
+2016-07-04 09:03:43 INFO  Server:168 - Reusing channelObject#1265864942 1467612221699
+2016-07-04 09:03:43 INFO  WorkerThread:40 - Thread dispachThreadPool-tId-6 running
+2016-07-04 09:03:43 DEBUG WorkerThread:63 - Request is keep-alive
+2016-07-04 09:03:43 DEBUG Server:130 - Adding 1 channels for reuse
+2016-07-04 09:03:44 DEBUG Server:149 - Have 1 channels
+2016-07-04 09:03:44 INFO  Server:168 - Reusing channelObject#1265864942 1467612223148
+2016-07-04 09:03:44 INFO  WorkerThread:40 - Thread dispachThreadPool-tId-7 running
+2016-07-04 09:03:44 DEBUG WorkerThread:63 - Request is keep-alive
+2016-07-04 09:03:44 DEBUG Server:130 - Adding 1 channels for reuse
+2016-07-04 09:03:44 DEBUG CleanupWorker:33 - Starting idle channel cleanup for 2 keys
+2016-07-04 09:03:49 DEBUG CleanupWorker:33 - Starting idle channel cleanup for 2 keys
+2016-07-04 09:03:50 DEBUG Server:149 - Have 1 channels
+2016-07-04 09:03:50 INFO  Server:168 - Reusing channelObject#1265864942 1467612224428
+2016-07-04 09:03:50 INFO  WorkerThread:40 - Thread dispachThreadPool-tId-8 running
+2016-07-04 09:03:50 DEBUG WorkerThread:63 - Request is keep-alive
+2016-07-04 09:03:50 DEBUG Server:130 - Adding 1 channels for reuse
+2016-07-04 09:03:54 DEBUG CleanupWorker:33 - Starting idle channel cleanup for 2 keys
